@@ -49,7 +49,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=Sheet2.SchDoc
+DocumentPath=STM32G070_prototype.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -66,7 +66,7 @@ GenerateClassCluster=0
 DocumentUniqueId=XOMCMHDT
 
 [Document2]
-DocumentPath=PCB3.PcbDoc
+DocumentPath=STM32G070_prototype.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -83,7 +83,7 @@ GenerateClassCluster=0
 DocumentUniqueId=WWBAIKPU
 
 [Document3]
-DocumentPath=VK_Lib.SchLib
+DocumentPath=PassiveComponents.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -117,7 +117,7 @@ GenerateClassCluster=0
 DocumentUniqueId=NBTWGSAP
 
 [Document5]
-DocumentPath=D:\Altium_Lib\Integrated_Library\Project Outputs for MainIntegratedLibrary\MainIntegratedLibrary.IntLib
+DocumentPath=..\..\Altium_Lib\Integrated_Library\Project Outputs for MainIntegratedLibrary\MainIntegratedLibrary.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -134,24 +134,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document6]
-DocumentPath=D:\Altium_Lib\Integrated_Library\Semicon_Lib.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=JUCYQPWY
-
-[Document7]
-DocumentPath=D:\Altium_Lib\PPTC041LFBN-RC.IntLib
+DocumentPath=..\..\Altium_Lib\PPTC041LFBN-RC.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -166,6 +149,125 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document7]
+DocumentPath=Processors.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LXIIUMZB
+
+[Document8]
+DocumentPath=ActiveComponents.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=MYDZTCTN
+
+[Document9]
+DocumentPath=Power_IC.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SZEVZKSW
+
+[Document10]
+DocumentPath=Connector.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SYGJUAYR
+
+[Document11]
+DocumentPath=Switch.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=IPYNVXUS
+
+[Document12]
+DocumentPath=Semicon.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ZFKVOMLI
+
+[Document13]
+DocumentPath=Sound.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BUQEPWPR
 
 [Configuration1]
 Name=Sources
@@ -386,7 +488,7 @@ OutputVariantName12=
 OutputDefault12=0
 PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.97|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=A4|PaperIndex=9
 Configuration12_Name1=OutputConfigurationParameter1
-Configuration12_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=C:\Users\Public\Documents\Altium\Projects\STM32G070\Sheet2.SchDoc
+Configuration12_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=D:\Altium Projects\STM32G070\Sheet2.SchDoc
 OutputType13=SimView Print
 OutputName13=SimView Prints
 OutputDocumentPath13=
@@ -886,6 +988,7 @@ Type116=1
 Type117=1
 Type118=1
 Type119=1
+Type120=1
 
 [Difference Levels]
 Type1=1
@@ -1126,83 +1229,17 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=VK_Lib.SchLib
-ComponentDesignItemID0=Capacitor
-ComponentSymbolReference0=Capacitor
+ComponentLibraryIdentifier0=Semicon.SchLib
+ComponentDesignItemID0=MOS_P
+ComponentSymbolReference0=MOS_P
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=VK_Lib.SchLib
-ComponentDesignItemID1=Connector_programming
-ComponentSymbolReference1=Connector_programming
-ComponentUpdate1=1
-ComponentIsDeviceSheet1=0
-ComponentLibIdentifierKind2=Library Name And Type
-ComponentLibraryIdentifier2=VK_Lib.SchLib
-ComponentDesignItemID2=Diod_Shottky
-ComponentSymbolReference2=Diod_Shottky
-ComponentUpdate2=1
-ComponentIsDeviceSheet2=0
-ComponentLibIdentifierKind3=Library Name And Type
-ComponentLibraryIdentifier3=VK_Lib.SchLib
-ComponentDesignItemID3=Fuse
-ComponentSymbolReference3=Fuse
-ComponentUpdate3=1
-ComponentIsDeviceSheet3=0
-ComponentLibIdentifierKind4=Library Name And Type
-ComponentLibraryIdentifier4=VK_Lib.SchLib
-ComponentDesignItemID4=LD1117
-ComponentSymbolReference4=LD1117
-ComponentUpdate4=1
-ComponentIsDeviceSheet4=0
-ComponentLibIdentifierKind5=Library Name And Type
-ComponentLibraryIdentifier5=VK_Lib.SchLib
-ComponentDesignItemID5=LED
-ComponentSymbolReference5=LED
-ComponentUpdate5=1
-ComponentIsDeviceSheet5=0
-ComponentLibIdentifierKind6=Library Name And Type
-ComponentLibraryIdentifier6=VK_Lib.SchLib
-ComponentDesignItemID6=Resistor
-ComponentSymbolReference6=Resistor
-ComponentUpdate6=1
-ComponentIsDeviceSheet6=0
-ComponentLibIdentifierKind7=Library Name And Type
-ComponentLibraryIdentifier7=VK_Lib.SchLib
-ComponentDesignItemID7=Resistor_smd_0603
-ComponentSymbolReference7=Resistor_smd_0603
-ComponentUpdate7=1
-ComponentIsDeviceSheet7=0
-ComponentLibIdentifierKind8=Library Name And Type
-ComponentLibraryIdentifier8=VK_Lib.SchLib
-ComponentDesignItemID8=STM32G070
-ComponentSymbolReference8=STM32G070
-ComponentUpdate8=1
-ComponentIsDeviceSheet8=0
-ComponentLibIdentifierKind9=Library Name And Type
-ComponentLibraryIdentifier9=VK_Lib.SchLib
-ComponentDesignItemID9=VBat
-ComponentSymbolReference9=VBat
-ComponentUpdate9=1
-ComponentIsDeviceSheet9=0
-ComponentLibIdentifierKind10=Library Name And Type
-ComponentLibraryIdentifier10=VK_Lib.SchLib
-ComponentDesignItemID10=XTAL
-ComponentSymbolReference10=XTAL
-ComponentUpdate10=1
-ComponentIsDeviceSheet10=0
-ComponentLibIdentifierKind11=Library Name And Type
-ComponentLibraryIdentifier11=VK_Lib.SchLib
-ComponentDesignItemID11=XTAL_RightPin
-ComponentSymbolReference11=XTAL_RightPin
-ComponentUpdate11=1
-ComponentIsDeviceSheet11=0
-FullReplace=1
+FullReplace=0
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
 PreserveParameterLocations=1
@@ -1223,30 +1260,6 @@ ParameterName2=Description
 ParameterUpdate2=1
 ParameterName3=Library Reference
 ParameterUpdate3=1
-ParameterName4=Voltage
-ParameterUpdate4=1
-ParameterName5=Сapacity
-ParameterUpdate5=1
-ModelTypeGroup0=PCBLIB
-ModelTypeUpdate0=1
-ModelType0=PCBLIB
-ModelName0=Capacitor_smd_0863
-ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=LD1117
-ModelUpdate1=1
-ModelType2=PCBLIB
-ModelName2=Led_smd_0603_Green
-ModelUpdate2=1
-ModelType3=PCBLIB
-ModelName3=Led_smd_0603_Red
-ModelUpdate3=1
-ModelType4=PCBLIB
-ModelName4=Resistor_smd_0603
-ModelUpdate4=1
-ModelType5=PCBLIB
-ModelName5=STM32G070
-ModelUpdate5=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1255,12 +1268,14 @@ UpdateToLatestRevision=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=5v|NetColor=$006E6EFF
-Net2=NetName=GND|NetColor=$00FF6E6E
-Net3=NetName=NetC?_1|NetColor=$006EFF6E
-Net4=NetName=VBAT|NetColor=clYellow
-Net5=NetName=VDD|NetColor=$006EFF6E
-Net6=NetName=VDD/VDDA|NetColor=$0000BE00
+Net1=NetName=+3v|NetColor=$00FF6EFF
+Net2=NetName=5v|NetColor=$006E6EFF
+Net3=NetName=GND|NetColor=$00FF6E6E
+Net4=NetName=NetC?_1|NetColor=$006EFF6E
+Net5=NetName=VBAT|NetColor=clYellow
+Net6=NetName=VCC|NetColor=$006E6EFF
+Net7=NetName=VDD|NetColor=$006EFF6E
+Net8=NetName=VDD/VDDA|NetColor=$0000BE00
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
